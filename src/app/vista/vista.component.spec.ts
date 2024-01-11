@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SegundaVistaComponent } from './segunda-vista.component';
+import { VistaComponent } from './vista.component';
 
-describe('SegundaVistaComponent', () => {
-  let component: SegundaVistaComponent;
-  let fixture: ComponentFixture<SegundaVistaComponent>;
+describe('VistaComponent', () => {
+  let component: VistaComponent;
+  let fixture: ComponentFixture<VistaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SegundaVistaComponent]
+      imports: [VistaComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(SegundaVistaComponent);
+    fixture = TestBed.createComponent(VistaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
